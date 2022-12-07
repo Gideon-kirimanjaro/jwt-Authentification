@@ -1,5 +1,3 @@
-import logo from "./logo.svg";
-import "./App.css";
 import ReactForm from "./components/ReactForm";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DashBoard from "./components/DashBoard";

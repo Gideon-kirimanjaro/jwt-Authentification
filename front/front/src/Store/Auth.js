@@ -10,7 +10,7 @@ const AuthContext = createContext({
 });
 export default AuthContext;
 export const ContextProvider = (props) => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const [token, setToken] = useState("");
   const [formData, setFormData] = useState({});
 
